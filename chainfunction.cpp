@@ -84,3 +84,31 @@ float lihatgajistaff (staff * s)
  {
     return s->gaji;
 }
+
+//fungsi main
+int main()
+{
+    mahasiswa * m = new mahasiswa("lia", "2211001");
+    dosen * d = new dosen ("pak budi", "199001", "lektor", 12000000);
+    staff * s = new staff ("bu rina", 101, 9000000);
+
+    d->bernilai(m, 90.5);
+    m->tampilkan();
+    d->tampilkan();
+
+    s->ubahpangkat(d, "guru besar");
+
+    cout << "\nsetelah diubah pangkat oleh staff:\n";
+    d->tampilkan();
+    s->tampilkan();
+
+    cout << "\nakses gaji : \n";
+    cout << "gaji dosen (via university): " << lihatgajidosen(d) << endl;
+    cout << "daji staff (via university): " << lihatgajistaff(s) << endl;
+
+    delete m;
+    delete d;
+    delete s;
+
+    return 0;
+}
