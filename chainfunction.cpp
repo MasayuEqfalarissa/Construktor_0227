@@ -3,6 +3,10 @@
 using namespace std;
 
 //class mahasiswa
-class mahasiswa {
-
+class mahasiswa 
+{
+private :
+    string nama;
+    string nim;
+    float nilai;
 };
