@@ -78,3 +78,9 @@ void tampilkan ()
     cout << "staf: " << nama << "id: " << id << "gaji: " << gaji << endl;
 }
 };
+
+//implementasi friend function lihatgajistaff
+float lihatgajistaff (staff * s)
+ {
+    return s->gaji;
+}
