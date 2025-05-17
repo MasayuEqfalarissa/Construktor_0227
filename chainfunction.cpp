@@ -65,8 +65,8 @@ private :
 public: 
     staff (string nama, int id, float gaji);
 
-void ubahpangkat (dosen * d, string pangkat baru)
+void ubahpangkat (dosen * d, string pangkatbaru)
 {
-
+    d->pangkat = pangkatbaru;
 }
 };
