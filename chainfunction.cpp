@@ -45,3 +45,8 @@ void tampilkan()
 friend class staff;
 friend float lihatgajidosen(dosen * d);
 };
+
+float lihatgajidosen(dosen * d) 
+{
+    return d->gaji;
+}
