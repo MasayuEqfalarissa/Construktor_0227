@@ -40,6 +40,8 @@ void bernilai(mahasiswa * m, float n) {
 void tampilkan() 
 {
     cout << "dosen: " << nama << "NIDN: " << NIDN << "pangkat: " << pangkat << "gaji: " << gaji << endl;
-    
 }
+
+friend class staff;
+friend float lihatgajidosen(dosen * d);
 };
