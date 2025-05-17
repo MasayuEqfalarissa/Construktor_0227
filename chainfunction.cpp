@@ -9,4 +9,7 @@ private :
     string nama;
     string nim;
     float nilai;
+
+public :
+    mahasiswa (string nanam, string nim);
 };
