@@ -17,4 +17,6 @@ void tampilkan ()
 {
     cout << "mahasiswa: " << this->nama << "nim: " << this-> nim << "nilai: " << this->nilai << endl;
 }
+
+friend class dosen;
 };
