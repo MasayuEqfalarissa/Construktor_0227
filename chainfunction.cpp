@@ -36,4 +36,10 @@ public:
 void bernilai(mahasiswa * m, float n) {
     m-> nilai = n;
 }
+
+void tampilkan() 
+{
+    cout << "dosen: " << nama << "NIDN: " << NIDN << "pangkat: " << pangkat << "gaji: " << gaji << endl;
+    
+}
 };
