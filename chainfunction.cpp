@@ -29,4 +29,7 @@ private :
     string NIDN;
     string pangkat;
     float gaji;
+
+public: 
+    dosen(string nama, string NIDN, string pangkat, float gaji);
 };
