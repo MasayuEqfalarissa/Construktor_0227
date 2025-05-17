@@ -18,6 +18,7 @@ void tampilkan ()
     cout << "mahasiswa: " << this->nama << "nim: " << this-> nim << "nilai: " << this->nilai << endl;
 }
 
+//menambahkan friend class dosen
 friend class dosen;
 };
 
@@ -42,11 +43,19 @@ void tampilkan()
     cout << "dosen: " << nama << "NIDN: " << NIDN << "pangkat: " << pangkat << "gaji: " << gaji << endl;
 }
 
+//menambahkan friend class staff dan friend function
 friend class staff;
 friend float lihatgajidosen(dosen * d);
 };
 
+//fungsi friend lihatgajidosen
 float lihatgajidosen(dosen * d) 
 {
     return d->gaji;
 }
+
+//membuat class staff
+class staff
+{
+
+};
