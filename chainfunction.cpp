@@ -57,5 +57,8 @@ float lihatgajidosen(dosen * d)
 //membuat class staff
 class staff
 {
-
+private :
+    string nama;
+    int id;
+    float gaji;
 };
