@@ -24,5 +24,9 @@ friend class dosen;
 //membuat class dosen
 class dosen 
 {
-
+private :
+    string nama;
+    string NIDN;
+    string pangkat;
+    float gaji;
 };
