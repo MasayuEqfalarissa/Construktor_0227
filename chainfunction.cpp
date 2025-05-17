@@ -20,3 +20,9 @@ void tampilkan ()
 
 friend class dosen;
 };
+
+//membuat class dosen
+class dosen 
+{
+
+};
