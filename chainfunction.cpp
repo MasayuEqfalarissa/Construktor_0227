@@ -61,4 +61,7 @@ private :
     string nama;
     int id;
     float gaji;
+
+public: 
+    staff (string nama, int id, float gaji);
 };
