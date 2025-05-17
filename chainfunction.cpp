@@ -69,4 +69,7 @@ void ubahpangkat (dosen * d, string pangkatbaru)
 {
     d->pangkat = pangkatbaru;
 }
+
+//menambahkan friend function lihatgajistaff
+friend float lihatgajistaff (staff * s);
 };
