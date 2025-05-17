@@ -12,4 +12,9 @@ private :
 
 public :
     mahasiswa (string nanam, string nim);
+
+void tampilkan () 
+{
+    cout << "mahasiswa: " << this->nama << "nim: " << this-> nim << "nilai: " << this->nilai << endl;
+}
 };
