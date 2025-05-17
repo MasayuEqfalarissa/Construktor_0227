@@ -32,4 +32,8 @@ private :
 
 public: 
     dosen(string nama, string NIDN, string pangkat, float gaji);
+
+void bernilai(mahasiswa * m, float n) {
+    m-> nilai = n;
+}
 };
